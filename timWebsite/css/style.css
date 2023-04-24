@@ -1,0 +1,205 @@
+/* GENERAL */
+
+:root {
+    --main-grey: rgb(84, 83, 83);
+    --lite-grey: rgb(182, 182, 182);
+    --lighter-grey: rgb(69, 69, 69);
+    --fun-color: rgb(182, 1, 189);
+    --main-font: Arial, Helvetica, sans-serif;
+    --cartel-font: 'Courier New', Courier, monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1.5rem;
+}
+
+#container {
+    display: flex;
+    padding-left: 250px;
+}
+
+
+
+
+
+
+
+/* HEADER */
+
+
+h1 {
+    font-size: 0.8em;
+    color: var(--main-grey);
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 0.8em;
+    font-family: var(--cartel-font);
+    color: var(--lite-grey);
+}
+
+h5 {
+    font-family: var(--cartel-font);
+    color: var(--lite-grey);
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+
+}
+
+nav>div {
+    line-height: 0.3em;
+}
+
+nav>div>p {
+    font-family: var(--main-font);
+    font-size: 12px;
+}
+
+nav>div>p:hover {
+    color: var(--fun-color);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* MAIN */ 
+
+.index{
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* SECTION 1 */
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 1.5em;
+}
+
+.section1>div:first-child {
+    font-size: 12px;
+    flex: 1 1 0;
+    font-family: var(--main-font);
+}
+
+.section1>div:nth-child(2) {
+    font-size: 12px;
+    flex: 1 1 0;
+    color: var(--lite-grey);
+    font-family: var(--cartel-font);
+    line-height: 1em;
+}
+
+.section1>div:last-child {
+    font-size: 11px;
+    flex: 2 1 0;
+    color: var(--main-grey);
+    font-family: var(--main-font);
+}
+
+
+
+
+
+
+
+
+/* SECTION 2 */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
+
+/* SECTION 2 FIRST DIV */
+.section2>div:first-child {
+    width: 100%;
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+}
+.image1-small{
+    width: auto;
+    height: auto;
+}
+
+
+
+
+/* SECTION 2 SECOND DIV */
+.grid-two-cols {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr ;
+}
+.grid-three-cols{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.hidden{
+    display:none;
+}
+
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8,
+.image9,
+.image10,
+.image11,
+.image12 {
+    width: 100%;
+}
+.grid-col-span-2 {
+    grid-column: span 2;
+  }
+  
+
+/* SECTION 2 SECOND DIV SPECIAL CLASS : DUMB CITY */
+
+.grid-row{
+    grid-row: 1 / span 2;
+}
+.grid-row-span1{
+    grid-row: 1 / 2;
+}
+.grid-row-span2{
+    grid-row: 2 / 3;
+}
