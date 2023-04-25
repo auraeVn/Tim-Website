@@ -105,7 +105,7 @@ const contenus = [
         image8:  "../images/centre.jpeg",
         image9:  "../images/tour.jpeg",
         image10:  "../images/facade.jpeg",
-        image11:  "../images/tour2.jpeg"
+        image11:  "../images/tour4.jpeg"
     },
     {
         id : "Os invasores",
@@ -150,8 +150,15 @@ const contenus = [
     {
         id : "Bio",
         titre: "../images/autoportrait.jpeg", 
-        description: "FORMATION <br> _Doctorat Recherche-Création ALLPH@ <br> ÉNSAV/UT2J <br> _Master Recherche Expérimentation École Nationale Supérieure d’Audiovisuel <br> _Master Recherche Institut Pluridisciplinaire pour les Études sur les Amériques de Toulouse <br> _Licence Science Politique Université Lyon II",
+        traductionTitre: "",
+        description: "FORMATION <br> _Doctorat Recherche-Création ALLPH@ <br> ÉNSAV/UT2J <br><br> _Master Recherche Expérimentation École Nationale Supérieure d’Audiovisuel <br><br> _Master Recherche Institut Pluridisciplinaire pour les Études sur les Amériques de Toulouse <br><br> _Licence Science Politique Université Lyon II",
         texte: `D’abord passé par une licence de Science-Politique, Timothée a ensuite continué sur un Master Recherche de socio-anthropologie qu’il a complété par un Master Recherche/Expérimentation à l’ÉNSAV de Toulouse. Après cela, il a entamé un doctorat entre l’ÉNSAV et de l’Université Toulouse II Jean Jaurès, où il a pu mené une thèse de création-recherche, soutenue en 2019. Celle-ci lui a donné l’occasion d’écrire un essai (édité en 2023, Le passager clandestin) et de réaliser le documentaire Tenacesur le contrôle du graffiti et l’hygiénisme dans l’espace public. Il a ainsi pu publier deux ouvrages photographiques sur ce sujet (Occupation visuelle, Dumb city). Il est actuellement en post-production d’une fiction expérimentale, Il y a un endroit dans la nuit, qui aborde les rapports de celles et ceux qui pratiquent la fête sauvage à leurs lieux, à la musique électronique et à leur mysticisme. En parallèle, il est assistant artistique de (LA)HORDE et lecteur au CNC.`,
-        traductionTexte: `First with a Bachelor's degree in Political Science, Timothée then continued with a Research Master's degree in socio-anthropology, which he completed with a Research/Experimentation Master's degree at ENSAV Toulouse. After that, he began a doctorate between ENSAV and Toulouse II Jean Jaurès University, where he was able to carry out a creation-research thesis, defended in 2019. This gave him the opportunity to write an essay (published in 2023, The clandestine passenger) and to make the documentary Tenace on the control of graffiti and hygiene in the public space. He was thus able to publish two photographic works on this subject (Visual occupation, Dumb city). He is currently in post-production of an experimental fiction, There is a place in the night, which addresses the relationship of those who practice wild partying to their places, to electronic music and to their mysticism. At the same time, he is artistic assistant of (LA)HORDE and reader at the CNC.`
+        traductionTexte: `First with a Bachelor's degree in Political Science, Timothée then continued with a Research Master's degree in socio-anthropology, which he completed with a Research/Experimentation Master's degree at ENSAV Toulouse. After that, he began a doctorate between ENSAV and Toulouse II Jean Jaurès University, where he was able to carry out a creation-research thesis, defended in 2019. This gave him the opportunity to write an essay (published in 2023, The clandestine passenger) and to make the documentary Tenace on the control of graffiti and hygiene in the public space. He was thus able to publish two photographic works on this subject (Visual occupation, Dumb city). He is currently in post-production of an experimental fiction, There is a place in the night, which addresses the relationship of those who practice wild partying to their places, to electronic music and to their mysticism. At the same time, he is artistic assistant of (LA)HORDE and reader at the CNC.`,
+        image1:  ""
+    },
+    {
+        id: "Contact",
+        email: "timengasser@gmail.com",
+        insta: "http://www.timengasser/instagram.com"
     }
 ];
