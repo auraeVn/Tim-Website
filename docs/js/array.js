@@ -8,11 +8,11 @@ const contenus = [
         Retracer un itinéraire permet de comprendre cette quête, «on communique avec d’autres mondes». Mais lesquels ? Sont-ils encore sur place ? Comment les entrevoir et ne pas les laisser s’évanouir ?`,
         traductionTexte: `Space impacts the rave, it is an active participant, we fit to it but it always shines. It is much more than a simple setting. When we go to industrial areas to find a soundsystem, we take paths usually intended for productivity, our passages modify these purely functional routes, to give them a new meaning. We reverse the meaning of these paths and reinvent the practice of the city, printing on it and in our lives new possibilities of feeling and living it. We question places as they question us.
         Tracing a route allows us to understand this quest, «we communicate with other worlds». But which ones? Are they still there? How can I see them and not let them vanish?`,
-        image1:  "../images/rose2.jpeg",
-        image2:  "../images/marie.jpeg",
-        image3:  "../images/velo.jpeg",
-        image4:  "../images/route.jpeg",
-        image5:  "../images/tole.jpeg"
+        image1:  "./images/rose2.jpeg",
+        image2:  "./images/marie.jpeg",
+        image3:  "./images/velo.jpeg",
+        image4:  "./images/route.jpeg",
+        image5:  "./images/tole.jpeg"
     },
     {
         id : "Tenace",
@@ -21,11 +21,11 @@ const contenus = [
         description: "Documentaire expérimental / Recherche-Création <br> Production : Bâton Rouge <br> Image : Timothée Engasser, Jean Baptiste Barra <br> Son : Timothée Engasser, Jean Baptiste Barra, Théo Peruchon <br> Montage : Théo Peruchon <br> 17 min <br> 2020",
         texte: `L’ambition de cette œuvre consiste à associer des concepts (philosophique, sociologique) au couple image/son, tout en les dépassant. Cela permet de renouveler les questionnements posés sur nos manières de vivre et d’interagir avec notre environnement. Nous mettons en scène le fantasme de la propreté dans la ville dans une vision homogénéisé, normée et presque vitrifiée. Cette construction urbaine se transforme peu à peu en une étendue désertique abstraite qui ne laisse (presque) aucune place pour l’innatendu.`,
         traductionTexte: `This work sets the fantasy of cleanliness in the city in a homogenized, standardized and almost vitrified vision. This urban construction is gradually transformed into an abstract desert that leaves (almost) no room for the unexpected.`,
-        image1:  "../images/ombre.jpeg",
-        image2:  "../images/dune.jpeg",
-        image3:  "../images/mano.png",
-        image4:  "../images/building.jpeg",
-        image5:  "../images/buff.jpeg"
+        image1:  "./images/ombre.jpeg",
+        image2:  "./images/dune.jpeg",
+        image3:  "./images/mano.png",
+        image4:  "./images/building.jpeg",
+        image5:  "./images/buff.jpeg"
     },
     {
         id : "Déni de réalité",
@@ -34,10 +34,10 @@ const contenus = [
         description: "Vidéo <br> Image : Timothée Engasser <br> HD <br> Couleur <br> 3 min <br> 2019",
         texte: `Un homme nous parle des graffitis au présent, alors qu’à l’image tout est effacé. Elle y décrit des tags sur des murs blancs, comme s’ils étaient encore là, comme si sa rétine avait été imprimée de manière indélébile. Comme si une fracture du temps était incarnée par cette personne.`,
         traductionTexte: `A man shows us graffitis, while in the image everything is erased. He describes tags on white walls, as if they were still there, as if his retina had been indelibly printed.`,
-        image1:  "../images/tete.png",
-        image2:  "../images/bruno.jpeg",
-        image3:  "../images/yeux.png",
-        image4:  "../images/monde.png"
+        image1:  "./images/tete.png",
+        image2:  "./images/bruno.jpeg",
+        image3:  "./images/yeux.png",
+        image4:  "./images/monde.png"
     },
     {
         id : "3 Fantômes sur une poussière",
