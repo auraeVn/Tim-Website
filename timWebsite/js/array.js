@@ -73,9 +73,8 @@ const contenus = [
         De l’avènement de l’hygiénisme au XVIIIe siècle à la mise en place d’un véritable marché sécuritaire à partir des années 1980, les auteurs retracent l’histoire de la répression de ce geste d’apparence anodine. Ils cherchent ainsi à comprendre ce qui se joue dans la gouvernance des espaces urbains contemporains et alertent sur ces effacements, signes avant-coureurs de logiques de contrôle bien plus insidieuses, qui ne concernent plus seulement celles et ceux qui écrivent dans la ville.`,
         traductionTexte: `Graffiti is the target of a fierce struggle. Every year, billions of euros are invested globally in safety, cleaning and prevention systems.
         From the advent of hygienism in the 18th century to the establishment of a real safe market from the 1980s, the book traces the history of repression of this seemingly innocuous gesture. Seeking to understand what is at stake in the governance of contemporary urban spaces and warn about these erasures, signs of much more insidious logic of control, which no longer concern only those who write in the city.`,
-        image1:  "../images/ligne.svg",
-        image2:  "../images/ligne2.svg",
-        image3:  "../images/ligne3.svg"
+        image1:  "../images/antigraphitisme_1.png",
+        image2:  "../images/antigraphitisme_2.png",
     },
     {
         id : "Dumb City",
@@ -158,7 +157,7 @@ const contenus = [
     },
     {
         id: "Contact",
-        email: "timengasser@gmail.com",
+        email: "thimotheeengasser.fr",
         insta: "http://www.timengasser/instagram.com"
     }
 ];

@@ -3,7 +3,6 @@ const navLinks = document.querySelectorAll('nav div p');
 const main = document.querySelector('main');
 const container = document.querySelector('#container');
 
-
 // AJOUTER TEMPLATES section 1 et section 2 DANS MAIN 
 
 navLinks.forEach((link) => {
@@ -29,13 +28,12 @@ navLinks.forEach((link) => {
           </section>
           <section class="section2">
             <div>
-              <img class="image1" src="${contenu.image1}">
+              <img class="image1" src="${contenu.image1}" alt="Image du projet">
             </div>
             <div class="grid-two-cols"></div>
             <div class="grid-three-cols"></div>
           </section>
         `;
-
         main.innerHTML = htmlContent;
 
 // CONDITION POUR OCCUPATION VISUELLE
@@ -96,8 +94,7 @@ navLinks.forEach((link) => {
             case 'Antigraffitisme':
             gridThreeCols.classList.add("hidden");
             gridTwoCols.innerHTML = `
-            <img class="image2" src="${contenu.image2}">
-            <img class="image3" src="${contenu.image3}">
+            <img class="image2 grid-col-span-2" src="${contenu.image2}">
             `;
             break;
           case 'Dumb City':
@@ -126,7 +123,6 @@ navLinks.forEach((link) => {
           case 'Os invasores':
             gridThreeCols.classList.add("hidden");
             gridTwoCols.innerHTML = `
-           
             <img class="image2 grid-col-span-2" src="${contenu.image2}">
             <img class="image3 grid-col-span-2" src="${contenu.image3}">
             <img class="image4 grid-col-span-2" src="${contenu.image4}">
